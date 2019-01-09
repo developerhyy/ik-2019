@@ -23,9 +23,10 @@ public class DefaultConfig implements Configuration {
 
     /*
      * 分词器默认字典路径
+     * E:\hyy\ik-2019\src\main\java\org\wltea\analyzer\dic\main2019.dic
      */
-    private static final String PATH_DIC_MAIN = "org/wltea/analyzer/dic/main2019.dic";
-    private static final String PATH_DIC_QUANTIFIER = "org/wltea/analyzer/dic/quantifier.dic";
+    private static final String PATH_DIC_MAIN = "dic/main2019.dic";
+    private static final String PATH_DIC_QUANTIFIER = "dic/quantifier.dic";
 
     /*
      * 分词器配置文件路径
@@ -120,7 +121,6 @@ public class DefaultConfig implements Configuration {
                 for (String filePath : filePaths) {
                     if (filePath != null && !"".equals(filePath.trim())) {
                         extDictFiles.add(filePath.trim());
-                        System.out.println("添加扩展词典："+filePath);
                     }
                 }
             }

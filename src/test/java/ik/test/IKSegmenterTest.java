@@ -18,6 +18,10 @@ public class IKSegmenterTest {
             while ((l = ik.next()) != null) {
                 if(l.getProps().equals("cn_medicine"))
                     System.out.println(l.getLexemeText() + ":" + l.getProps());
+                if(l.getProps().equals("back"))
+                System.out.println(l.getLexemeText() + ":" + l.getProps());
+
+                System.out.println(l.getLexemeText() + ":" + l.getProps());
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -26,7 +30,7 @@ public class IKSegmenterTest {
 
     @Test
     public void test0() throws IOException {
-        String str = "我是习大大，我是领袖，，nn";
+        String str = "我是傻逼，我是领袖，，nn";
         //做敏感词分析
         print(str);
     }

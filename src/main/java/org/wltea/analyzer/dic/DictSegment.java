@@ -1,12 +1,5 @@
 package org.wltea.analyzer.dic;
 
-/**
- * @ Author     ：hyy.
- * @ Date       ：Created in 15:53 2019-1-4
- * @ Description：${description}
- * @ Modified By：hyy.
- * @Version: $version$
- */
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
