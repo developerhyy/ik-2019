@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment>IKAnalyzer</comment>
+    <entry key="ext_dic">dic/main.dic;dic/chinese_medicine.dic;</entry>
+    <entry key="ext_stopwords">dic/stopWords.dic;</entry>
+</properties>
