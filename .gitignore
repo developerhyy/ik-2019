@@ -1,0 +1,12 @@
+.idea/checkstyle-idea.xml
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/libraries/Maven__junit_junit_4_12.xml
+.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+ik-2019.iml
+target/classes/dic/main.dic
+target/classes/dic/stopWords.dic
+target/classes/IKAnalyzer.cfg.xml
