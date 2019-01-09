@@ -10,3 +10,5 @@ ik-2019.iml
 target/classes/dic/main.dic
 target/classes/dic/stopWords.dic
 target/classes/IKAnalyzer.cfg.xml
+*.dll
+.idea/*
