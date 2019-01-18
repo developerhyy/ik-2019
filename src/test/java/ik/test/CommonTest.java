@@ -23,7 +23,7 @@ public class CommonTest {
 
     @Test
     public void test1() throws IOException {
-        String str = "南京市的长江大桥";    // I am xxx
+        String str = "南京市长江大桥";    // I am xxx
         print(str);
     }
 }
